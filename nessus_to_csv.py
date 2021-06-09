@@ -17,7 +17,7 @@ severity = []
 start = 1
 
 
-nessus_file = open('/tmp/nessus_file.csv', 'w')
+nessus_file = open('./tmp/nessus_file.csv', 'w')
 csvwriter = csv.writer(nessus_file)
 csvwriter.writerow(['ip Address', 'vulnerability', 'severity'])
 
